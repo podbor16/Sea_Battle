@@ -239,7 +239,7 @@ class Game:
         player = self.random_board()
         comp = self.random_board()
         # скрываем корабли компьютера
-        comp.hid = False
+        comp.hid = True
 
         # создаем двух игроков
         self.ai = AI(comp, player)
